@@ -6,12 +6,6 @@ public class MyLinkedList {
     private Node last;
     private int listLength;
 
-    public MyLinkedList() {
-        this.head = null;
-        this.last = null;
-        this.listLength = 0;
-    }
-
     public int getLength() {
         return listLength;
     }

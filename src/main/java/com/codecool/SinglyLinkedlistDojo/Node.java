@@ -6,8 +6,6 @@ public class Node {
     private Node linkToNextNode;
 
     public Node(){
-        this.info = 0;
-        this.linkToNextNode = null;
     }
 
     public Node(int data, Node link) {
