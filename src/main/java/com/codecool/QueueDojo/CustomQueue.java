@@ -42,7 +42,7 @@ public class CustomQueue {
         if (firstNode==null) {
             throw new IndexOutOfBoundsException("There is nothing to peek at!");
         }
-        return firstNode.getValue();
+        return firstNode.getValue()i;
     }
 
     public String dequeue(){
